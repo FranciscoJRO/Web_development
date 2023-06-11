@@ -23,6 +23,19 @@ body{
 }
 
 .titulo span{
-    font-size: 2rem;
+    font-size: 2rem;   
+}
+
+.contenedor{
+    width: 100rem;
+    margin: 0 auto;
+}
+
+.nav_background{
+    background-color: var(--secundario);
+
+}
+
+.navegacion-principal{
     
 }
