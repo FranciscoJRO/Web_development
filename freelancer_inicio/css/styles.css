@@ -1,8 +1,8 @@
 :root{
     --blanco:#ffffff;
     --negro:#212121;
-    --primario:#71A92D;
-    --secundario:#0097A7;
+    --primario:#aa9b14;
+    --secundario:#5564EB;
     --gris:#757575;
 
 }
@@ -38,4 +38,10 @@ body{
 
 .navegacion-principal{
     
+}
+
+.navegacion-principal a{
+    background-color: var(--primario);
+    display: block;
+
 }
