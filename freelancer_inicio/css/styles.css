@@ -68,9 +68,10 @@ body{
     color: var(--negro);
 }
 
-
-@media (min-width: 480px) {
-    
+.hero{
+    background-image: url(../imagenes/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
