@@ -78,8 +78,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
-    padding: 20px;
-
+    position: relative;
 }
 
-
+.contenido-hero{
+    position: absolute;
+    background-color: rgba(0,0,0,.6); /** Anterior, se mete al alpha-chanell**/
+    background-color: rgb(0 0 0 /60%); /**Nueva manera, no se mete al aplha-chanell**/
+     height: 100%;
+     width: 100%;
+}
+  
