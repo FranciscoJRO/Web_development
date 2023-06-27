@@ -6,13 +6,13 @@
     --gris:#757575;
 
 }
-
+/**Globales**/
 html{
     font-size: 62.5%;
-    box-sizing: border-box;
+    box-sizing: border-box; /*hack para el box model*/
 }
 
-*, *:before, *:after {
+*, *:before, *:after {    /*Hack para el box model*/
     box-sizing: inherit;
   }
 
@@ -22,6 +22,32 @@ body{
     font-family: 'Merriweather', serif;
 }
 
+.contenedor{
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.boton{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 2rem,3rem;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+}
+
+@media (min-width:768px) {
+    .boton{
+        width: auto;
+    }
+}
+
+/**Tipografia**/
 h1{
     font-size: 3.8rem;
 }
@@ -39,15 +65,12 @@ h1,h2,h3{
     text-align: center; 
 }
 
+/**Titulos**/
 .titulo span{
     font-size: 2rem;   
 }
 
-.contenedor{
-    max-width: 100rem;
-    margin: 0 auto;
-}
-
+/*Navegacion principal*/
 .nav_background{
     background-color: var(--secundario);
 
