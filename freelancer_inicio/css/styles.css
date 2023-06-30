@@ -27,6 +27,15 @@ body{
     background-image: linear-gradient(to right, #78FFD6 0%, #007991 100%) ; /*Ponemos un degradado, agregando los colores y los % son para indicar si empieza en la partede de arriba y donde termina cada color del degradado */
 }
 
+.sombra{
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+    background-color: var(--degradado);
+    padding: 2rem;
+    border-radius: 2rem;
+}   
+
 .contenedor{
     max-width: 100rem;
     margin: 0 auto;
@@ -117,6 +126,7 @@ h1,h2,h3{
     background-size: cover;
     height: 450px;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .contenido-hero{
