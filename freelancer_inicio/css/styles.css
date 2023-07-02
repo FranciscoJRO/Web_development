@@ -151,3 +151,12 @@ h1,h2,h3{
     display: flex;
     align-items: flex-end;
 }
+
+/*Servicios*/
+
+@media (min-width: 768px) {
+.servicios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ; /*Es lo mismo que poner 33.3% 33.3% 33.3%* y tamnien es lo mismo de 1fr 1fr 1fr*/
+    }
+}
