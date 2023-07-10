@@ -54,7 +54,14 @@ body{
     border-radius: .5rem;
     width: 90%;
     text-align: center;
+    border: none;
 }
+
+.boton:hover{
+    cursor: pointer;
+
+}
+
 
 @media (min-width:768px) {
     .boton{
@@ -85,6 +92,28 @@ h1,h2,h3{
     font-size: 2rem;   
 }
 
+
+/**Utilidades*/
+.wsm-100{
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .wsm-100{
+        width: auto;
+    }
+    
+}
+
+.alinear-derecha{
+justify-content: flex-end;
+}
+
+.flex{
+    display: flex;
+}
+
+
 /*Navegacion principal*/
 .nav_background{
     background-color: var(--secundario);
@@ -102,6 +131,7 @@ h1,h2,h3{
     .navegacion-principal{
         flex-direction: row;
         justify-content: space-between;
+        
     }
 }
 
@@ -212,6 +242,36 @@ h1,h2,h3{
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 2rem;
+}
+
+.contenedor-campos{
 
 
+}
+
+.campo{
+    margin-bottom: 1rem;
+
+}
+
+
+.campo label{
+    color: var(--negro);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+
+
+}
+
+
+.input-text{
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+.enviar .boton{
+    width: 100%;
 }
