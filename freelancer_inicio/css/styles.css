@@ -15,7 +15,16 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box; /*hack para el box model*/
+    scroll-snap-type: y mandatory;
 }
+
+/*Srcoll snap*/
+.servicios,.navegacion-principal,.formulario{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+
 
 *, *:before, *:after {    /*Hack para el box model*/
     box-sizing: inherit;
@@ -182,6 +191,9 @@ justify-content: flex-end;
     display: flex;
     align-items: flex-end;
 }
+
+
+
 
 /*Servicios*/
 
